@@ -20,8 +20,7 @@ python main.py
 
 3. The application window will appear, allowing you to input the necessary information.
 
-![image](https://github.com/3DDengineer/SpotifyPlaylistToJSON/assets/80202484/601f6031-2701-4004-a8c4-93735228d9aa)
-
+![image](https://github.com/3DDengineer/SpotifyPlaylistToJSON/assets/80202484/87d28095-e1b0-43a2-b100-2e42f8bb785e)
 
 4. Provide the required details in the text input fields:
      1. Client ID: Your Spotify API client ID. You can obtain this by creating a Spotify Developer account and registering a new application. DO NOT SHARE THIS WITH ANYONE
