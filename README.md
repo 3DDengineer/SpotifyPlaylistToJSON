@@ -1,63 +1,54 @@
 # SpotifyPlaylistToJSON
 Exports the Track Name, Track ID, Track Length, and Artist of all Songs in a Spotify Playlist to a JSON Document
 
-Installation
-Ensure you have Python installed on your system (version 3.6 or later).
+## Installation
 
-Clone or download the project from the GitHub repository: Spotify Playlist Extraction.
+1. Ensure you have Python installed on your system (version 3.6 or later).
+2. Clone or download the project from the GitHub repository https://github.com/3DDengineer/SpotifyPlaylistToJSON
+3. Install the required dependencies by running the following command in your terminal:
 
-Install the required dependencies by running the following command in your terminal:
+```bash
+pip install spotipy PySimpleGUI json configparser
+```
+## Usage
+1. Open the terminal or command prompt and navigate to the project directory.
+2. Run the main.py file using the Python interpreter:
 
-bash
-Copy code
-pip install spotipy PySimpleGUI
-Usage
-Open the terminal or command prompt and navigate to the project directory.
-
-Run the main.py file using the Python interpreter:
-
-bash
-Copy code
+```bash
 python main.py
-The application window will appear, allowing you to input the necessary information.
+```
 
-Application Window
+3. The application window will appear, allowing you to input the necessary information.
 
-Provide the required details in the text input fields:
+![image](https://github.com/3DDengineer/SpotifyPlaylistToJSON/assets/80202484/601f6031-2701-4004-a8c4-93735228d9aa)
 
-Client ID: Your Spotify API client ID. You can obtain this by creating a Spotify Developer account and registering a new application.
-Client Secret: Your Spotify API client secret. It is generated along with the client ID.
-Playlist URL: The URL of the Spotify playlist from which you want to extract the song data.
-Click the Extract Song Data button to initiate the extraction process.
 
-The program will authenticate with the Spotify API using your client credentials and retrieve the playlist details.
+4. Provide the required details in the text input fields:
+     1. Client ID: Your Spotify API client ID. You can obtain this by creating a Spotify Developer account and registering a new application. DO NOT SHARE THIS WITH ANYONE
+     2. Client Secret: Your Spotify API client secret. It is generated along with the client ID. DO NOT SHARE THIS WITH ANYONE
+     3.  Playlist URL: The URL of the Spotify playlist from which you want to extract the song data.
 
-The song data, including the song ID, track name, artist, and duration in minutes, will be extracted and saved in a JSON file.
+5. Click the Extract Song Data button to initiate the extraction process.
 
-The JSON file will be named after the playlist, with spaces replaced by underscores and converted to lowercase. It will be saved in the same directory as the program.
+6. The program will authenticate with the Spotify API using your client credentials and retrieve the playlist details.
 
-The program will display a success message along with the filename where the data is saved.
+7. The song data, including the song ID, track name, artist, and duration in minutes, will be extracted and saved in a JSON file.
 
-You can close the application window after the extraction process is complete.
+8. The JSON file will be named after the playlist, with spaces replaced by underscores and converted to lowercase. It will be saved in the same directory as the program.
 
-Configuration
-The Spotify Playlist Extraction program saves your configuration for future use. The configuration details, including the client ID, client secret, and playlist URL, are stored in the config.ini file. When you reopen the program, it will load the saved configuration automatically. You can modify the configuration values by updating the corresponding fields in the application window.
+9. The program will display a success message along with the filename where the data is saved.
 
-Dependencies
-The Spotify Playlist Extraction program relies on the following dependencies:
+10. You can close the application window after the extraction process is complete, but it should happen automatically.
 
-spotipy: A lightweight Python library for the Spotify Web API.
-PySimpleGUI: A Python GUI framework for creating simple and easy-to-use interfaces.
-These dependencies are automatically installed when you run the pip install command mentioned in the Installation section.
 
-License
-This project is licensed under the GNU something somehting i can't remeber licesne idc what you do with it ybh
+## License
+This project is licensed under the GNU something somehting i can't remember licesne idc what you do with it tbh
 
-Contributing
+## Contributing
 do whatever you want idc
 
-Credits
+## Credits
 This was almost entirely written by ChatGPT, i only made a few minor tweaks to get it working smoothly
 
-Contact
+## Contact
 Please do not contact me, i don't care.
