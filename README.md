@@ -41,7 +41,7 @@ python main.py
 
 
 ## License
-This project is licensed under the GNU something somehting i can't remember licesne idc what you do with it tbh
+This project is licensed under the GNU something somehting i can't remember licence idc what you do with it tbh
 
 ## Contributing
 do whatever you want idc
